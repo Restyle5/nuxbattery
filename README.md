@@ -26,6 +26,8 @@
 
 # Setup instructions
 
+Close this repository
+
 Make sure to install dependencies:
 
 ```bash
