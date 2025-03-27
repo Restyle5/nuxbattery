@@ -1,0 +1,35 @@
+:root{
+    --default-color-1: #000;
+    --default-color-2: #fff;
+}
+
+.navbar-dark {
+    background-color: var(--default-color1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--default-color-2);
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #f8f9fa;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: var(--default-color-2);
+}
+li .nav-link:hover {
+    background-color: var(--default-color-2);
+    color: var(--default-color-1) !important;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: red;
+    color: var(--default-color-2) !important;
+    cursor: pointer;
+}
+
+body{
+    background-color: #ececec;
+}
